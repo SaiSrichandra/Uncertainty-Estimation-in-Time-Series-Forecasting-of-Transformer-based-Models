@@ -1,0 +1,19 @@
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 1 --mcdroprate 0.1
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 1 --mcdroprate 0.2
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 1 --mcdroprate 0.5
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 2 --mcdroprate 0.1
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 2 --mcdroprate 0.2
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 2 --mcdroprate 0.5
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 3 --mcdroprate 0.1
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 3 --mcdroprate 0.2
+
+python -u main_informer.py --model informer --data ETTm1 --attn prob --freq t --features S --e_layers 4 --d_layers 2 --train_epochs 15 --pred_len 48 --mcdrop 3 --mcdroprate 0.5
